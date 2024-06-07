@@ -2,9 +2,10 @@ body{ background-color: rgb(215, 165, 39); border:solid; border-width: 10px;marg
 #p1{background-color:rgb(219, 190, 118); 
     border-style:double;border-radius: 10px;}
 #h{background:linear-gradient( rgb(232, 167, 3), rgb(207, 117, 6));
-    font-family:"Teko"; border-style:double; 
+    font-family:"Teko"; border-style:double; box-shadow: 5px 5px 5px rgb(0, 0, 0); 
     border-color: red;
    }
-#h2{font-family:"Archivo Black", "sans-serif";
+#h2{font-family:"Archivo Black", "sans-serif" ; text-shadow: 5px 5px 15px black; 
     }
 #box{border-style:double ;background-image: url("wood.jpg"); }
+
