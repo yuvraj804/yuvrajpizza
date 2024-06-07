@@ -1,3 +1,10 @@
 body{ background-color: rgb(215, 165, 39)} 
-#p1{background-color:rgb(219, 190, 118)}
-#h{background-color: rgb(232, 167, 3);}
+#p1{background-color:rgb(219, 190, 118); 
+    border-style:double;border-radius: 10px;}
+#h{background:linear-gradient( rgb(232, 167, 3), rgb(207, 117, 6));
+    font-family:"Teko"; border-style:double; 
+    border-color: red;
+   }
+#h2{font-family:"Archivo Black", "sans-serif";
+    }
+#box{border-style:double ;background-image: url("wood.jpg"); }
