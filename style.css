@@ -3,9 +3,10 @@ body{ background-color: rgb(215, 165, 39); border:solid; border-width: 10px;marg
     border-style:double;border-radius: 10px;}
 #h{background:linear-gradient( rgb(232, 167, 3), rgb(207, 117, 6));
     font-family:"Teko"; border-style:double; box-shadow: 5px 5px 5px rgb(0, 0, 0); 
-    border-color: red;
+    border-color: red;  animation: 3s linear 0s 1 running slide;
    }
 #h2{font-family:"Archivo Black", "sans-serif" ; text-shadow: 5px 5px 15px black;
+    animation: 3s linear 0s 1 running slide;
     }
 #box{border-style:double ;background-image: url("wood.jpg"); }
 
@@ -15,8 +16,11 @@ body{ background-color: rgb(215, 165, 39); border:solid; border-width: 10px;marg
     animation: 3s linear 0s infinite running op;
    }
 
-
-@keyframes op{
+   @keyframes slide{
+    from{margin-right: 50% ;}
+    to{margin-right: 0%;}
+   }
+  @keyframes op{
 
    50%{opacity: 0;} 
 }
@@ -26,11 +30,6 @@ body{ background-color: rgb(215, 165, 39); border:solid; border-width: 10px;marg
 
     }
 
-#piz {
-        animation: 1.5s linear 0s 1 running rpiz;
-    
-        }
-    
     
 
 @keyframes rpiz{
