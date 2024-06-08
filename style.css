@@ -5,7 +5,38 @@ body{ background-color: rgb(215, 165, 39); border:solid; border-width: 10px;marg
     font-family:"Teko"; border-style:double; box-shadow: 5px 5px 5px rgb(0, 0, 0); 
     border-color: red;
    }
-#h2{font-family:"Archivo Black", "sans-serif" ; text-shadow: 5px 5px 15px black; 
+#h2{font-family:"Archivo Black", "sans-serif" ; text-shadow: 5px 5px 15px black;
     }
 #box{border-style:double ;background-image: url("wood.jpg"); }
+
+
+#h3{font-family:"Archivo Black", "sans-serif" ; text-shadow: 5px 5px 15px black;
+
+    animation: 3s linear 0s infinite running op;
+   }
+
+
+@keyframes op{
+
+   50%{opacity: 0;} 
+}
+
+#c {
+    animation: 1.5s linear 0s 1 running rpiz;
+
+    }
+
+#piz {
+        animation: 1.5s linear 0s 1 running rpiz;
+    
+        }
+    
+    
+
+@keyframes rpiz{
+      100%{transform: rotateZ(360deg)}
+
+}
+
+
 
